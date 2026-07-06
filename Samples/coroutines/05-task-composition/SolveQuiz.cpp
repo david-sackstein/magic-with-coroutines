@@ -8,6 +8,7 @@
 #include <string_view>
 #include <vector>
 
+#include <algorithm>
 #include <unistd.h>
 
 namespace coroutines {

@@ -4,6 +4,7 @@
 // reads each response, and co_returns the accumulated answers as a vector.
 // Verification of the answers is the caller's responsibility.
 
+#include "common/reactor/Reactor.h"
 #include "coroutines/return_types/task/Task.h"
 
 #include <span>
@@ -11,8 +12,6 @@
 #include <vector>
 
 namespace coroutines {
-
-class Reactor;
 
 [[nodiscard]] Task<std::vector<int>> solve_quiz(
     Reactor &reactor,

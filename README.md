@@ -1,4 +1,4 @@
-# Fun with Coroutines
+# Magic with Coroutines
 
 A hands-on C++20 coroutines course repo. Five problems are solved twice — once with
 callbacks and state machines (`no-coroutines/`), once with coroutines (`coroutines/`).
@@ -173,3 +173,4 @@ multi-step request/response session, all on one thread via a reactor.
 2. Read the matching `coroutines/` solution
 3. Run the tests under `tests/<demo>/`
 4. Inspect the return type in `coroutines/return_types/`
+"# magic-with-coroutines" 
